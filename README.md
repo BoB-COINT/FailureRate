@@ -35,7 +35,9 @@ DEX(주로 Uniswap V2/V3) 스왑 트랜잭션을 수집·필터링하여 **매�
 ## 리포지토리 구조 
 `````
 ├─ BELLE/
-│ ├─ .py, .txt, .csv 
+│ ├─ .py, .txt, .csv
+├─ $88/
+├─ main.py
 └─ README.md
 `````
 
