@@ -59,15 +59,19 @@ pip install requests pandas python-dotenv
 
 ```bash
 # 현재 세션에만 적용
-$env:ETHERSCAN_API_KEY = "실제_API_키_입력"
+$env:ETHERSCAN_API_KEY = "etherscan_실제_API_키_입력"
 $env:TOKEN_ADDRESS = "0x토큰주소"
+$env:TOKEN_NAME        = "토큰이름"
+$env:HOLDER_LIMIT      = "홀더수" 
 
 # 환경변수 확인
 echo $env:ETHERSCAN_API_KEY
 echo $env:TOKEN_ADDRESS
+echo $env:TOKEN_NAME
+echo $env:HOLDER_LIMIT
 
 # 실행
-python ??.py 
+python main.py 
 ```
 
 ---
