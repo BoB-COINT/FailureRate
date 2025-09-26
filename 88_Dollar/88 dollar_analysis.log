@@ -1,0 +1,273 @@
+2025-09-26 18:20:49,815 - INFO - === 88 Dollar 토큰 분석 설정 ===
+2025-09-26 18:20:49,815 - INFO - 토큰 이름: 88 Dollar
+2025-09-26 18:20:49,815 - INFO - 토큰 주소: 0xe053cf2bc6dd5e3e773f23606846859eddfe4925
+2025-09-26 18:20:49,815 - INFO - 목표 홀더 수: 29개
+2025-09-26 18:20:49,815 - INFO - 성능 최적화 설정:
+2025-09-26 18:20:49,815 - INFO -   - 요청 지연: 0.25초 (지터 적용)
+2025-09-26 18:20:49,816 - INFO -   - 타임아웃: 15초
+2025-09-26 18:20:49,816 - INFO -   - Receipt 보정: True (실패 Top-N 100)
+2025-09-26 18:20:51,226 - WARNING - v2 topholders insufficient, falling back to v1 tokentx
+2025-09-26 18:20:51,450 - INFO - Collected 28 holder candidates from tokentx (v1)
+2025-09-26 18:20:51,455 - INFO - Successfully fetched 28 88 Dollar holders
+2025-09-26 18:20:51,456 - INFO - Starting analysis for 28 token holders
+2025-09-26 18:20:51,456 - INFO - Starting analysis for holder: 0x93fcb0936e7d128b3d4df79250dabb1f21befe5b
+2025-09-26 18:20:51,456 - INFO - Fetching transactions for address: 0x93fcb0936e7d128b3d4df79250dabb1f21befe5b
+2025-09-26 18:20:51,657 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:20:54,883 - INFO - Fetched 1 transactions (page 1) for 0x93fcb0936e7d128b3d4df79250dabb1f21befe5b
+2025-09-26 18:20:54,886 - INFO - Processed 0 router transactions in window for 0x93fcb0936e7d128b3d4df79250dabb1f21befe5b
+2025-09-26 18:20:54,889 - INFO - Starting analysis for holder: 0xcac87d87c5ed071a5f0df3d131a484a54c220d80
+2025-09-26 18:20:54,893 - INFO - Fetching transactions for address: 0xcac87d87c5ed071a5f0df3d131a484a54c220d80
+2025-09-26 18:20:59,557 - INFO - Fetched 901 transactions (page 1) for 0xcac87d87c5ed071a5f0df3d131a484a54c220d80
+2025-09-26 18:20:59,565 - INFO - Processed 567 router transactions in window for 0xcac87d87c5ed071a5f0df3d131a484a54c220d80
+2025-09-26 18:21:26,034 - INFO - Analysis complete for 0xcac87d87c5ed071a5f0df3d131a484a54c220d80: 567 txs (window), 18.2% fail rate
+2025-09-26 18:21:26,035 - INFO - Starting analysis for holder: 0xe231dd595f41bf6af34c182ac8b7c88d35b9bfe7
+2025-09-26 18:21:26,035 - INFO - Fetching transactions for address: 0xe231dd595f41bf6af34c182ac8b7c88d35b9bfe7
+2025-09-26 18:21:26,443 - INFO - Fetched 13 transactions (page 1) for 0xe231dd595f41bf6af34c182ac8b7c88d35b9bfe7
+2025-09-26 18:21:26,445 - INFO - Processed 2 router transactions in window for 0xe231dd595f41bf6af34c182ac8b7c88d35b9bfe7
+2025-09-26 18:21:26,451 - INFO - Analysis complete for 0xe231dd595f41bf6af34c182ac8b7c88d35b9bfe7: 2 txs (window), 0.0% fail rate
+2025-09-26 18:21:26,452 - INFO - Starting analysis for holder: 0x25f780da26cec8c958de76b92af55165d49c60ba
+2025-09-26 18:21:26,453 - INFO - Fetching transactions for address: 0x25f780da26cec8c958de76b92af55165d49c60ba
+2025-09-26 18:21:26,647 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:21:30,678 - INFO - Fetched 53 transactions (page 1) for 0x25f780da26cec8c958de76b92af55165d49c60ba
+2025-09-26 18:21:30,681 - INFO - Processed 38 router transactions in window for 0x25f780da26cec8c958de76b92af55165d49c60ba
+2025-09-26 18:21:32,757 - INFO - Analysis complete for 0x25f780da26cec8c958de76b92af55165d49c60ba: 38 txs (window), 15.8% fail rate
+2025-09-26 18:21:32,758 - INFO - Starting analysis for holder: 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:21:32,758 - INFO - Fetching transactions for address: 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:21:41,101 - INFO - Fetched 1000 transactions (page 1) for 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:21:45,727 - INFO - Fetched 1000 transactions (page 2) for 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:21:46,847 - INFO - Fetched 233 transactions (page 3) for 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:21:46,864 - INFO - Processed 1386 router transactions in window for 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:22:13,640 - INFO - Analysis complete for 0xd84289fb4f9ddb429662cfee79d718f30f833579: 1386 txs (window), 14.1% fail rate
+2025-09-26 18:22:13,641 - INFO - Starting analysis for holder: 0xd1616063ef1aef2349608a7e8fc05dae1c446087
+2025-09-26 18:22:13,641 - INFO - Fetching transactions for address: 0xd1616063ef1aef2349608a7e8fc05dae1c446087
+2025-09-26 18:22:13,838 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:22:17,486 - INFO - Fetched 170 transactions (page 1) for 0xd1616063ef1aef2349608a7e8fc05dae1c446087
+2025-09-26 18:22:17,490 - INFO - Processed 120 router transactions in window for 0xd1616063ef1aef2349608a7e8fc05dae1c446087
+2025-09-26 18:22:20,841 - INFO - Analysis complete for 0xd1616063ef1aef2349608a7e8fc05dae1c446087: 120 txs (window), 10.8% fail rate
+2025-09-26 18:22:20,842 - INFO - Starting analysis for holder: 0x83f93a7491baead8a20e17c77c407707c2d069c7
+2025-09-26 18:22:20,842 - INFO - Fetching transactions for address: 0x83f93a7491baead8a20e17c77c407707c2d069c7
+2025-09-26 18:22:21,036 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:22:28,129 - INFO - Fetched 1000 transactions (page 1) for 0x83f93a7491baead8a20e17c77c407707c2d069c7
+2025-09-26 18:22:29,242 - INFO - Fetched 199 transactions (page 2) for 0x83f93a7491baead8a20e17c77c407707c2d069c7
+2025-09-26 18:22:29,256 - INFO - Processed 771 router transactions in window for 0x83f93a7491baead8a20e17c77c407707c2d069c7
+2025-09-26 18:22:54,829 - INFO - === 88 Dollar 토큰 분석 설정 ===
+2025-09-26 18:22:54,829 - INFO - 토큰 이름: 88 Dollar
+2025-09-26 18:22:54,829 - INFO - 토큰 주소: 0xe053cf2bc6dd5e3e773f23606846859eddfe4925
+2025-09-26 18:22:54,830 - INFO - 목표 홀더 수: 29개
+2025-09-26 18:22:54,830 - INFO - 성능 최적화 설정:
+2025-09-26 18:22:54,830 - INFO -   - 요청 지연: 0.25초 (지터 적용)
+2025-09-26 18:22:54,830 - INFO -   - 타임아웃: 15초
+2025-09-26 18:22:54,830 - INFO -   - Receipt 보정: True (실패 Top-N 100)
+2025-09-26 18:22:55,658 - WARNING - v2 topholders insufficient, falling back to v1 tokentx
+2025-09-26 18:22:55,876 - INFO - Collected 28 holder candidates from tokentx (v1)
+2025-09-26 18:22:55,876 - INFO - Holder list fetched: 28/29 (actual/env)
+2025-09-26 18:22:55,877 - INFO - Starting analysis for 28 token holders
+2025-09-26 18:22:55,878 - INFO - [1/28] Analyzing holder: 0xe231dd595f41bf6af34c182ac8b7c88d35b9bfe7
+2025-09-26 18:22:55,878 - INFO - Starting analysis for holder: 0xe231dd595f41bf6af34c182ac8b7c88d35b9bfe7
+2025-09-26 18:22:55,878 - INFO - Fetching transactions for address: 0xe231dd595f41bf6af34c182ac8b7c88d35b9bfe7
+2025-09-26 18:22:56,080 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:22:59,554 - INFO - Fetched 13 transactions (page 1) for 0xe231dd595f41bf6af34c182ac8b7c88d35b9bfe7
+2025-09-26 18:22:59,557 - INFO - Processed 2 router transactions in window for 0xe231dd595f41bf6af34c182ac8b7c88d35b9bfe7
+2025-09-26 18:22:59,567 - INFO - Analysis complete for 0xe231dd595f41bf6af34c182ac8b7c88d35b9bfe7: 2 txs (window), 0.0% fail rate
+2025-09-26 18:22:59,568 - INFO - [2/28] Analyzing holder: 0x92687c7f8657df54feb5d1bb62cbd74d96936bfe
+2025-09-26 18:22:59,568 - INFO - Starting analysis for holder: 0x92687c7f8657df54feb5d1bb62cbd74d96936bfe
+2025-09-26 18:22:59,569 - INFO - Fetching transactions for address: 0x92687c7f8657df54feb5d1bb62cbd74d96936bfe
+2025-09-26 18:23:00,042 - INFO - Fetched 163 transactions (page 1) for 0x92687c7f8657df54feb5d1bb62cbd74d96936bfe
+2025-09-26 18:23:00,044 - INFO - Processed 114 router transactions in window for 0x92687c7f8657df54feb5d1bb62cbd74d96936bfe
+2025-09-26 18:23:03,698 - INFO - Analysis complete for 0x92687c7f8657df54feb5d1bb62cbd74d96936bfe: 114 txs (window), 12.3% fail rate
+2025-09-26 18:23:03,699 - INFO - [3/28] Analyzing holder: 0x18d32f3ec040e23a2f155c702989d46b6653a5cc
+2025-09-26 18:23:03,699 - INFO - Starting analysis for holder: 0x18d32f3ec040e23a2f155c702989d46b6653a5cc
+2025-09-26 18:23:03,700 - INFO - Fetching transactions for address: 0x18d32f3ec040e23a2f155c702989d46b6653a5cc
+2025-09-26 18:23:06,446 - INFO - Fetched 1000 transactions (page 1) for 0x18d32f3ec040e23a2f155c702989d46b6653a5cc
+2025-09-26 18:23:09,581 - INFO - Fetched 796 transactions (page 2) for 0x18d32f3ec040e23a2f155c702989d46b6653a5cc
+2025-09-26 18:23:10,257 - INFO - Processed 1119 router transactions in window for 0x18d32f3ec040e23a2f155c702989d46b6653a5cc
+2025-09-26 18:23:19,595 - INFO - Analysis complete for 0x18d32f3ec040e23a2f155c702989d46b6653a5cc: 1119 txs (window), 2.9% fail rate
+2025-09-26 18:23:19,597 - INFO - [4/28] Analyzing holder: 0xa123cb04c232f1a39a0a152b1c26c7d6d06948c7
+2025-09-26 18:23:19,597 - INFO - Starting analysis for holder: 0xa123cb04c232f1a39a0a152b1c26c7d6d06948c7
+2025-09-26 18:23:19,597 - INFO - Fetching transactions for address: 0xa123cb04c232f1a39a0a152b1c26c7d6d06948c7
+2025-09-26 18:23:19,800 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:23:27,673 - INFO - Fetched 732 transactions (page 1) for 0xa123cb04c232f1a39a0a152b1c26c7d6d06948c7
+2025-09-26 18:23:27,680 - INFO - Processed 386 router transactions in window for 0xa123cb04c232f1a39a0a152b1c26c7d6d06948c7
+2025-09-26 18:23:54,420 - INFO - Analysis complete for 0xa123cb04c232f1a39a0a152b1c26c7d6d06948c7: 386 txs (window), 33.7% fail rate
+2025-09-26 18:23:54,421 - INFO - [5/28] Analyzing holder: 0x9e8a819a48f6bf2459e298c6fa34408da8eaa5c5
+2025-09-26 18:23:54,422 - INFO - Starting analysis for holder: 0x9e8a819a48f6bf2459e298c6fa34408da8eaa5c5
+2025-09-26 18:23:54,422 - INFO - Fetching transactions for address: 0x9e8a819a48f6bf2459e298c6fa34408da8eaa5c5
+2025-09-26 18:23:54,851 - INFO - Fetched 55 transactions (page 1) for 0x9e8a819a48f6bf2459e298c6fa34408da8eaa5c5
+2025-09-26 18:23:54,855 - INFO - Processed 36 router transactions in window for 0x9e8a819a48f6bf2459e298c6fa34408da8eaa5c5
+2025-09-26 18:23:56,620 - INFO - Analysis complete for 0x9e8a819a48f6bf2459e298c6fa34408da8eaa5c5: 36 txs (window), 19.4% fail rate
+2025-09-26 18:23:56,621 - INFO - [6/28] Analyzing holder: 0x3d44943ff685a031779a8d0dbd1cf6706062b9c7
+2025-09-26 18:23:56,621 - INFO - Starting analysis for holder: 0x3d44943ff685a031779a8d0dbd1cf6706062b9c7
+2025-09-26 18:23:56,621 - INFO - Fetching transactions for address: 0x3d44943ff685a031779a8d0dbd1cf6706062b9c7
+2025-09-26 18:23:57,279 - INFO - Fetched 84 transactions (page 1) for 0x3d44943ff685a031779a8d0dbd1cf6706062b9c7
+2025-09-26 18:23:57,293 - INFO - Processed 58 router transactions in window for 0x3d44943ff685a031779a8d0dbd1cf6706062b9c7
+2025-09-26 18:23:59,658 - INFO - Analysis complete for 0x3d44943ff685a031779a8d0dbd1cf6706062b9c7: 58 txs (window), 13.8% fail rate
+2025-09-26 18:23:59,659 - INFO - [7/28] Analyzing holder: 0x62623625510883c79ddc16a93014fa3d0fe37260
+2025-09-26 18:23:59,659 - INFO - Starting analysis for holder: 0x62623625510883c79ddc16a93014fa3d0fe37260
+2025-09-26 18:23:59,659 - INFO - Fetching transactions for address: 0x62623625510883c79ddc16a93014fa3d0fe37260
+2025-09-26 18:24:01,593 - INFO - Fetched 426 transactions (page 1) for 0x62623625510883c79ddc16a93014fa3d0fe37260
+2025-09-26 18:24:01,596 - INFO - Processed 283 router transactions in window for 0x62623625510883c79ddc16a93014fa3d0fe37260
+2025-09-26 18:24:15,342 - INFO - Analysis complete for 0x62623625510883c79ddc16a93014fa3d0fe37260: 283 txs (window), 14.5% fail rate
+2025-09-26 18:24:15,344 - INFO - [8/28] Analyzing holder: 0x321fa3388b98215eed2cb67ab0181db760cad5d1
+2025-09-26 18:24:15,344 - INFO - Starting analysis for holder: 0x321fa3388b98215eed2cb67ab0181db760cad5d1
+2025-09-26 18:24:15,344 - INFO - Fetching transactions for address: 0x321fa3388b98215eed2cb67ab0181db760cad5d1
+2025-09-26 18:24:15,543 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:24:23,499 - INFO - Fetched 1000 transactions (page 1) for 0x321fa3388b98215eed2cb67ab0181db760cad5d1
+2025-09-26 18:24:29,441 - INFO - Fetched 1000 transactions (page 2) for 0x321fa3388b98215eed2cb67ab0181db760cad5d1
+2025-09-26 18:24:36,074 - INFO - Fetched 1000 transactions (page 3) for 0x321fa3388b98215eed2cb67ab0181db760cad5d1
+2025-09-26 18:24:39,971 - INFO - Fetched 352 transactions (page 4) for 0x321fa3388b98215eed2cb67ab0181db760cad5d1
+2025-09-26 18:24:40,011 - INFO - Processed 1670 router transactions in window for 0x321fa3388b98215eed2cb67ab0181db760cad5d1
+2025-09-26 18:25:07,606 - INFO - Analysis complete for 0x321fa3388b98215eed2cb67ab0181db760cad5d1: 1670 txs (window), 12.8% fail rate
+2025-09-26 18:25:07,607 - INFO - [9/28] Analyzing holder: 0x25f780da26cec8c958de76b92af55165d49c60ba
+2025-09-26 18:25:07,608 - INFO - Starting analysis for holder: 0x25f780da26cec8c958de76b92af55165d49c60ba
+2025-09-26 18:25:07,608 - INFO - Fetching transactions for address: 0x25f780da26cec8c958de76b92af55165d49c60ba
+2025-09-26 18:25:08,595 - INFO - Fetched 53 transactions (page 1) for 0x25f780da26cec8c958de76b92af55165d49c60ba
+2025-09-26 18:25:08,598 - INFO - Processed 38 router transactions in window for 0x25f780da26cec8c958de76b92af55165d49c60ba
+2025-09-26 18:25:10,792 - INFO - Analysis complete for 0x25f780da26cec8c958de76b92af55165d49c60ba: 38 txs (window), 15.8% fail rate
+2025-09-26 18:25:10,793 - INFO - [10/28] Analyzing holder: 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:25:10,793 - INFO - Starting analysis for holder: 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:25:10,793 - INFO - Fetching transactions for address: 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:25:10,997 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:25:19,936 - INFO - Fetched 1000 transactions (page 1) for 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:25:25,304 - INFO - Fetched 1000 transactions (page 2) for 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:25:27,241 - INFO - Fetched 233 transactions (page 3) for 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:25:27,250 - INFO - Processed 1386 router transactions in window for 0xd84289fb4f9ddb429662cfee79d718f30f833579
+2025-09-26 18:25:35,508 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x87ad5d8eec31be2054930881967039a03f23cfab1dd5c887a3c36ccaab30ae7d&apikey=VBP9AS63QF875GBX8ZUSJN5667GBRB33R7
+2025-09-26 18:25:55,883 - INFO - Analysis complete for 0xd84289fb4f9ddb429662cfee79d718f30f833579: 1386 txs (window), 14.1% fail rate
+2025-09-26 18:25:55,883 - INFO - [11/28] Analyzing holder: 0x6b0cfb4bf0ddb0313c4606b68b3ff6ceb62844ad
+2025-09-26 18:25:55,884 - INFO - Starting analysis for holder: 0x6b0cfb4bf0ddb0313c4606b68b3ff6ceb62844ad
+2025-09-26 18:25:55,884 - INFO - Fetching transactions for address: 0x6b0cfb4bf0ddb0313c4606b68b3ff6ceb62844ad
+2025-09-26 18:25:56,083 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:26:07,436 - INFO - Fetched 1000 transactions (page 1) for 0x6b0cfb4bf0ddb0313c4606b68b3ff6ceb62844ad
+2025-09-26 18:26:10,693 - INFO - Fetched 815 transactions (page 2) for 0x6b0cfb4bf0ddb0313c4606b68b3ff6ceb62844ad
+2025-09-26 18:26:10,700 - INFO - Processed 1125 router transactions in window for 0x6b0cfb4bf0ddb0313c4606b68b3ff6ceb62844ad
+2025-09-26 18:26:21,165 - INFO - Analysis complete for 0x6b0cfb4bf0ddb0313c4606b68b3ff6ceb62844ad: 1125 txs (window), 3.5% fail rate
+2025-09-26 18:26:21,165 - INFO - [12/28] Analyzing holder: 0xd1616063ef1aef2349608a7e8fc05dae1c446087
+2025-09-26 18:26:21,166 - INFO - Starting analysis for holder: 0xd1616063ef1aef2349608a7e8fc05dae1c446087
+2025-09-26 18:26:21,166 - INFO - Fetching transactions for address: 0xd1616063ef1aef2349608a7e8fc05dae1c446087
+2025-09-26 18:26:21,972 - INFO - Fetched 170 transactions (page 1) for 0xd1616063ef1aef2349608a7e8fc05dae1c446087
+2025-09-26 18:26:21,975 - INFO - Processed 120 router transactions in window for 0xd1616063ef1aef2349608a7e8fc05dae1c446087
+2025-09-26 18:26:25,819 - INFO - Analysis complete for 0xd1616063ef1aef2349608a7e8fc05dae1c446087: 120 txs (window), 10.8% fail rate
+2025-09-26 18:26:25,826 - INFO - [13/28] Analyzing holder: 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:26:25,857 - INFO - Starting analysis for holder: 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:26:25,871 - INFO - Fetching transactions for address: 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:26:29,331 - INFO - Fetched 1000 transactions (page 1) for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:26:32,678 - INFO - Fetched 1000 transactions (page 2) for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:26:36,426 - INFO - Fetched 1000 transactions (page 3) for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:26:41,836 - INFO - Fetched 1000 transactions (page 4) for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:26:46,668 - INFO - Fetched 1000 transactions (page 5) for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:26:50,063 - INFO - Fetched 1000 transactions (page 6) for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:26:53,165 - INFO - Fetched 1000 transactions (page 7) for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:26:56,280 - INFO - Fetched 1000 transactions (page 8) for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:27:02,263 - INFO - Fetched 1000 transactions (page 9) for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:27:06,593 - INFO - Fetched 1000 transactions (page 10) for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:27:06,870 - WARNING - Reached Etherscan window limit (10 pages) for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:27:06,875 - INFO - Total 10000 transactions fetched for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:27:06,982 - INFO - Processed 6812 router transactions in window for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba
+2025-09-26 18:27:39,607 - INFO - Analysis complete for 0x285b3bc1f46d2bf1142966a5e1c4834b86b82aba: 6812 txs (window), 13.7% fail rate
+2025-09-26 18:27:39,645 - INFO - [14/28] Analyzing holder: 0x83f93a7491baead8a20e17c77c407707c2d069c7
+2025-09-26 18:27:39,657 - INFO - Starting analysis for holder: 0x83f93a7491baead8a20e17c77c407707c2d069c7
+2025-09-26 18:27:39,665 - INFO - Fetching transactions for address: 0x83f93a7491baead8a20e17c77c407707c2d069c7
+2025-09-26 18:27:45,078 - INFO - Fetched 1000 transactions (page 1) for 0x83f93a7491baead8a20e17c77c407707c2d069c7
+2025-09-26 18:27:47,345 - INFO - Fetched 199 transactions (page 2) for 0x83f93a7491baead8a20e17c77c407707c2d069c7
+2025-09-26 18:27:47,407 - INFO - Processed 771 router transactions in window for 0x83f93a7491baead8a20e17c77c407707c2d069c7
+2025-09-26 18:28:13,136 - INFO - Analysis complete for 0x83f93a7491baead8a20e17c77c407707c2d069c7: 771 txs (window), 18.2% fail rate
+2025-09-26 18:28:13,142 - INFO - [15/28] Analyzing holder: 0x6905fdbc98b4574db09aba113797e01fd1f33f3c
+2025-09-26 18:28:13,169 - INFO - Starting analysis for holder: 0x6905fdbc98b4574db09aba113797e01fd1f33f3c
+2025-09-26 18:28:13,185 - INFO - Fetching transactions for address: 0x6905fdbc98b4574db09aba113797e01fd1f33f3c
+2025-09-26 18:28:13,408 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:28:20,494 - INFO - Fetched 1000 transactions (page 1) for 0x6905fdbc98b4574db09aba113797e01fd1f33f3c
+2025-09-26 18:28:23,394 - INFO - Fetched 579 transactions (page 2) for 0x6905fdbc98b4574db09aba113797e01fd1f33f3c
+2025-09-26 18:28:23,400 - INFO - Processed 1011 router transactions in window for 0x6905fdbc98b4574db09aba113797e01fd1f33f3c
+2025-09-26 18:28:35,624 - INFO - Analysis complete for 0x6905fdbc98b4574db09aba113797e01fd1f33f3c: 1011 txs (window), 4.5% fail rate
+2025-09-26 18:28:35,625 - INFO - [16/28] Analyzing holder: 0xf3a595e5c1fa13dbf6f2a112a2cf39903752782c
+2025-09-26 18:28:35,626 - INFO - Starting analysis for holder: 0xf3a595e5c1fa13dbf6f2a112a2cf39903752782c
+2025-09-26 18:28:35,626 - INFO - Fetching transactions for address: 0xf3a595e5c1fa13dbf6f2a112a2cf39903752782c
+2025-09-26 18:28:35,821 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:28:45,384 - INFO - Fetched 721 transactions (page 1) for 0xf3a595e5c1fa13dbf6f2a112a2cf39903752782c
+2025-09-26 18:28:45,390 - INFO - Processed 364 router transactions in window for 0xf3a595e5c1fa13dbf6f2a112a2cf39903752782c
+2025-09-26 18:28:58,964 - INFO - Analysis complete for 0xf3a595e5c1fa13dbf6f2a112a2cf39903752782c: 364 txs (window), 7.1% fail rate
+2025-09-26 18:28:58,966 - INFO - [17/28] Analyzing holder: 0xf379fd42981c175506739b443b7954d9b6871d1d
+2025-09-26 18:28:58,966 - INFO - Starting analysis for holder: 0xf379fd42981c175506739b443b7954d9b6871d1d
+2025-09-26 18:28:58,966 - INFO - Fetching transactions for address: 0xf379fd42981c175506739b443b7954d9b6871d1d
+2025-09-26 18:29:06,882 - INFO - Fetched 803 transactions (page 1) for 0xf379fd42981c175506739b443b7954d9b6871d1d
+2025-09-26 18:29:06,891 - INFO - Processed 533 router transactions in window for 0xf379fd42981c175506739b443b7954d9b6871d1d
+2025-09-26 18:29:36,707 - INFO - Analysis complete for 0xf379fd42981c175506739b443b7954d9b6871d1d: 533 txs (window), 24.4% fail rate
+2025-09-26 18:29:36,708 - INFO - [18/28] Analyzing holder: 0x1f09b4aaf7971d86408d9751ebe6786bd0b0aefb
+2025-09-26 18:29:36,709 - INFO - Starting analysis for holder: 0x1f09b4aaf7971d86408d9751ebe6786bd0b0aefb
+2025-09-26 18:29:36,709 - INFO - Fetching transactions for address: 0x1f09b4aaf7971d86408d9751ebe6786bd0b0aefb
+2025-09-26 18:29:37,870 - INFO - Fetched 165 transactions (page 1) for 0x1f09b4aaf7971d86408d9751ebe6786bd0b0aefb
+2025-09-26 18:29:37,949 - INFO - Processed 116 router transactions in window for 0x1f09b4aaf7971d86408d9751ebe6786bd0b0aefb
+2025-09-26 18:29:41,500 - INFO - Analysis complete for 0x1f09b4aaf7971d86408d9751ebe6786bd0b0aefb: 116 txs (window), 12.1% fail rate
+2025-09-26 18:29:41,502 - INFO - [19/28] Analyzing holder: 0xb78a1fe1a98d12205171f28171f2a8f469ecfbf7
+2025-09-26 18:29:41,502 - INFO - Starting analysis for holder: 0xb78a1fe1a98d12205171f28171f2a8f469ecfbf7
+2025-09-26 18:29:41,504 - INFO - Fetching transactions for address: 0xb78a1fe1a98d12205171f28171f2a8f469ecfbf7
+2025-09-26 18:29:44,071 - INFO - Fetched 189 transactions (page 1) for 0xb78a1fe1a98d12205171f28171f2a8f469ecfbf7
+2025-09-26 18:29:44,081 - INFO - Processed 134 router transactions in window for 0xb78a1fe1a98d12205171f28171f2a8f469ecfbf7
+2025-09-26 18:29:48,462 - INFO - Analysis complete for 0xb78a1fe1a98d12205171f28171f2a8f469ecfbf7: 134 txs (window), 11.9% fail rate
+2025-09-26 18:29:48,463 - INFO - [20/28] Analyzing holder: 0x0a8a23c76dc6fd005a4e2e319348ccaa09f580aa
+2025-09-26 18:29:48,464 - INFO - Starting analysis for holder: 0x0a8a23c76dc6fd005a4e2e319348ccaa09f580aa
+2025-09-26 18:29:48,468 - INFO - Fetching transactions for address: 0x0a8a23c76dc6fd005a4e2e319348ccaa09f580aa
+2025-09-26 18:29:52,426 - INFO - Fetched 1000 transactions (page 1) for 0x0a8a23c76dc6fd005a4e2e319348ccaa09f580aa
+2025-09-26 18:29:57,293 - INFO - Fetched 1000 transactions (page 2) for 0x0a8a23c76dc6fd005a4e2e319348ccaa09f580aa
+2025-09-26 18:29:59,696 - INFO - Fetched 359 transactions (page 3) for 0x0a8a23c76dc6fd005a4e2e319348ccaa09f580aa
+2025-09-26 18:29:59,730 - INFO - Processed 697 router transactions in window for 0x0a8a23c76dc6fd005a4e2e319348ccaa09f580aa
+2025-09-26 18:30:15,329 - INFO - Analysis complete for 0x0a8a23c76dc6fd005a4e2e319348ccaa09f580aa: 697 txs (window), 8.2% fail rate
+2025-09-26 18:30:15,331 - INFO - [21/28] Analyzing holder: 0xd8379a71c8593c0029b5575c7e018a48d0f3aa13
+2025-09-26 18:30:15,332 - INFO - Starting analysis for holder: 0xd8379a71c8593c0029b5575c7e018a48d0f3aa13
+2025-09-26 18:30:15,332 - INFO - Fetching transactions for address: 0xd8379a71c8593c0029b5575c7e018a48d0f3aa13
+2025-09-26 18:30:15,947 - INFO - Fetched 50 transactions (page 1) for 0xd8379a71c8593c0029b5575c7e018a48d0f3aa13
+2025-09-26 18:30:15,956 - INFO - Processed 29 router transactions in window for 0xd8379a71c8593c0029b5575c7e018a48d0f3aa13
+2025-09-26 18:30:18,266 - INFO - Analysis complete for 0xd8379a71c8593c0029b5575c7e018a48d0f3aa13: 29 txs (window), 31.0% fail rate
+2025-09-26 18:30:18,268 - INFO - [22/28] Analyzing holder: 0x93fcb0936e7d128b3d4df79250dabb1f21befe5b
+2025-09-26 18:30:18,269 - INFO - Starting analysis for holder: 0x93fcb0936e7d128b3d4df79250dabb1f21befe5b
+2025-09-26 18:30:18,270 - INFO - Fetching transactions for address: 0x93fcb0936e7d128b3d4df79250dabb1f21befe5b
+2025-09-26 18:30:18,881 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:30:22,091 - INFO - Fetched 1 transactions (page 1) for 0x93fcb0936e7d128b3d4df79250dabb1f21befe5b
+2025-09-26 18:30:22,092 - INFO - Processed 0 router transactions in window for 0x93fcb0936e7d128b3d4df79250dabb1f21befe5b
+2025-09-26 18:30:22,092 - INFO - [23/28] Analyzing holder: 0x377d74e2c96bdbe666c0bddbfc05b0d4594acbe3
+2025-09-26 18:30:22,092 - INFO - Starting analysis for holder: 0x377d74e2c96bdbe666c0bddbfc05b0d4594acbe3
+2025-09-26 18:30:22,093 - INFO - Fetching transactions for address: 0x377d74e2c96bdbe666c0bddbfc05b0d4594acbe3
+2025-09-26 18:30:24,683 - INFO - Fetched 249 transactions (page 1) for 0x377d74e2c96bdbe666c0bddbfc05b0d4594acbe3
+2025-09-26 18:30:24,685 - INFO - Processed 138 router transactions in window for 0x377d74e2c96bdbe666c0bddbfc05b0d4594acbe3
+2025-09-26 18:30:25,023 - INFO - Analysis complete for 0x377d74e2c96bdbe666c0bddbfc05b0d4594acbe3: 138 txs (window), 0.7% fail rate
+2025-09-26 18:30:25,043 - INFO - [24/28] Analyzing holder: 0x90faf03c8c3164eb263d2e115124bb85d3109a0f
+2025-09-26 18:30:25,060 - INFO - Starting analysis for holder: 0x90faf03c8c3164eb263d2e115124bb85d3109a0f
+2025-09-26 18:30:25,075 - INFO - Fetching transactions for address: 0x90faf03c8c3164eb263d2e115124bb85d3109a0f
+2025-09-26 18:30:25,504 - INFO - Fetched 37 transactions (page 1) for 0x90faf03c8c3164eb263d2e115124bb85d3109a0f
+2025-09-26 18:30:25,505 - INFO - Processed 17 router transactions in window for 0x90faf03c8c3164eb263d2e115124bb85d3109a0f
+2025-09-26 18:30:25,703 - INFO - Analysis complete for 0x90faf03c8c3164eb263d2e115124bb85d3109a0f: 17 txs (window), 5.9% fail rate
+2025-09-26 18:30:25,704 - INFO - [25/28] Analyzing holder: 0xc1dbd06d5a0ac4236989e7db2b63d600131f305f
+2025-09-26 18:30:25,704 - INFO - Starting analysis for holder: 0xc1dbd06d5a0ac4236989e7db2b63d600131f305f
+2025-09-26 18:30:25,705 - INFO - Fetching transactions for address: 0xc1dbd06d5a0ac4236989e7db2b63d600131f305f
+2025-09-26 18:30:26,912 - INFO - Fetched 166 transactions (page 1) for 0xc1dbd06d5a0ac4236989e7db2b63d600131f305f
+2025-09-26 18:30:26,916 - INFO - Processed 117 router transactions in window for 0xc1dbd06d5a0ac4236989e7db2b63d600131f305f
+2025-09-26 18:30:31,085 - INFO - Analysis complete for 0xc1dbd06d5a0ac4236989e7db2b63d600131f305f: 117 txs (window), 12.8% fail rate
+2025-09-26 18:30:31,085 - INFO - [26/28] Analyzing holder: 0xb28f24b847fcd94719308345983b1c45e7e1ec85
+2025-09-26 18:30:31,086 - INFO - Starting analysis for holder: 0xb28f24b847fcd94719308345983b1c45e7e1ec85
+2025-09-26 18:30:31,086 - INFO - Fetching transactions for address: 0xb28f24b847fcd94719308345983b1c45e7e1ec85
+2025-09-26 18:30:31,284 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:30:34,474 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=account&action=txlist&address=0xb28f24b847fcd94719308345983b1c45e7e1ec85&startblock=0&endblock=99999999&page=1&offset=1000&sort=asc&apikey=VBP9AS63QF875GBX8ZUSJN5667GBRB33R7
+2025-09-26 18:30:38,872 - INFO - Fetched 863 transactions (page 1) for 0xb28f24b847fcd94719308345983b1c45e7e1ec85
+2025-09-26 18:30:38,887 - INFO - Processed 599 router transactions in window for 0xb28f24b847fcd94719308345983b1c45e7e1ec85
+2025-09-26 18:31:07,573 - INFO - Analysis complete for 0xb28f24b847fcd94719308345983b1c45e7e1ec85: 599 txs (window), 19.7% fail rate
+2025-09-26 18:31:07,574 - INFO - [27/28] Analyzing holder: 0xcac87d87c5ed071a5f0df3d131a484a54c220d80
+2025-09-26 18:31:07,574 - INFO - Starting analysis for holder: 0xcac87d87c5ed071a5f0df3d131a484a54c220d80
+2025-09-26 18:31:07,574 - INFO - Fetching transactions for address: 0xcac87d87c5ed071a5f0df3d131a484a54c220d80
+2025-09-26 18:31:07,774 - WARNING - Rate limit hit, waiting...
+2025-09-26 18:31:16,261 - INFO - Fetched 901 transactions (page 1) for 0xcac87d87c5ed071a5f0df3d131a484a54c220d80
+2025-09-26 18:31:16,273 - INFO - Processed 567 router transactions in window for 0xcac87d87c5ed071a5f0df3d131a484a54c220d80
+2025-09-26 18:31:44,172 - INFO - Analysis complete for 0xcac87d87c5ed071a5f0df3d131a484a54c220d80: 567 txs (window), 18.2% fail rate
+2025-09-26 18:31:44,173 - INFO - [28/28] Analyzing holder: 0xf1dfd94c1ddcccea7137e74dacfc77f5861a859f
+2025-09-26 18:31:44,173 - INFO - Starting analysis for holder: 0xf1dfd94c1ddcccea7137e74dacfc77f5861a859f
+2025-09-26 18:31:44,173 - INFO - Fetching transactions for address: 0xf1dfd94c1ddcccea7137e74dacfc77f5861a859f
+2025-09-26 18:31:48,520 - INFO - Fetched 736 transactions (page 1) for 0xf1dfd94c1ddcccea7137e74dacfc77f5861a859f
+2025-09-26 18:31:48,528 - INFO - Processed 497 router transactions in window for 0xf1dfd94c1ddcccea7137e74dacfc77f5861a859f
+2025-09-26 18:32:14,403 - INFO - Analysis complete for 0xf1dfd94c1ddcccea7137e74dacfc77f5861a859f: 497 txs (window), 18.7% fail rate
+2025-09-26 18:32:14,404 - INFO - Progress: 28/28 (100.0%) completed
+2025-09-26 18:32:14,410 - INFO - Successfully concatenated 27 dataframes for transactions
+2025-09-26 18:32:14,416 - INFO - Successfully concatenated 28 dataframes for summaries
+2025-09-26 18:32:14,422 - INFO - Successfully concatenated 21 dataframes for clusters
+2025-09-26 18:32:14,721 - INFO - Saved transactions to 88 dollar_transactions_28_20250926_093214.csv
+2025-09-26 18:32:14,729 - INFO - Saved summary to 88 dollar_summary_28_20250926_093214.csv
+2025-09-26 18:32:14,757 - INFO - Saved clusters to 88 dollar_clusters_28_20250926_093214.csv
+2025-09-26 18:32:14,775 - INFO - Saved report to 88 dollar_report_28_20250926_093214.txt
