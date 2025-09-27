@@ -131,7 +131,7 @@
 2025-09-26 18:25:25,304 - INFO - Fetched 1000 transactions (page 2) for 0xd84289fb4f9ddb429662cfee79d718f30f833579
 2025-09-26 18:25:27,241 - INFO - Fetched 233 transactions (page 3) for 0xd84289fb4f9ddb429662cfee79d718f30f833579
 2025-09-26 18:25:27,250 - INFO - Processed 1386 router transactions in window for 0xd84289fb4f9ddb429662cfee79d718f30f833579
-2025-09-26 18:25:35,508 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x87ad5d8eec31be2054930881967039a03f23cfab1dd5c887a3c36ccaab30ae7d&apikey=VBP9AS63QF875GBX8ZUSJN5667GBRB33R7
+2025-09-26 18:25:35,508 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x87ad5d8eec31be2054930881967039a03f23cfab1dd5c887a3c36ccaab30ae7d&apikey=
 2025-09-26 18:25:55,883 - INFO - Analysis complete for 0xd84289fb4f9ddb429662cfee79d718f30f833579: 1386 txs (window), 14.1% fail rate
 2025-09-26 18:25:55,883 - INFO - [11/28] Analyzing holder: 0x6b0cfb4bf0ddb0313c4606b68b3ff6ceb62844ad
 2025-09-26 18:25:55,884 - INFO - Starting analysis for holder: 0x6b0cfb4bf0ddb0313c4606b68b3ff6ceb62844ad
@@ -246,7 +246,7 @@
 2025-09-26 18:30:31,086 - INFO - Starting analysis for holder: 0xb28f24b847fcd94719308345983b1c45e7e1ec85
 2025-09-26 18:30:31,086 - INFO - Fetching transactions for address: 0xb28f24b847fcd94719308345983b1c45e7e1ec85
 2025-09-26 18:30:31,284 - WARNING - Rate limit hit, waiting...
-2025-09-26 18:30:34,474 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=account&action=txlist&address=0xb28f24b847fcd94719308345983b1c45e7e1ec85&startblock=0&endblock=99999999&page=1&offset=1000&sort=asc&apikey=VBP9AS63QF875GBX8ZUSJN5667GBRB33R7
+2025-09-26 18:30:34,474 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=account&action=txlist&address=0xb28f24b847fcd94719308345983b1c45e7e1ec85&startblock=0&endblock=99999999&page=1&offset=1000&sort=asc&apikey=
 2025-09-26 18:30:38,872 - INFO - Fetched 863 transactions (page 1) for 0xb28f24b847fcd94719308345983b1c45e7e1ec85
 2025-09-26 18:30:38,887 - INFO - Processed 599 router transactions in window for 0xb28f24b847fcd94719308345983b1c45e7e1ec85
 2025-09-26 18:31:07,573 - INFO - Analysis complete for 0xb28f24b847fcd94719308345983b1c45e7e1ec85: 599 txs (window), 19.7% fail rate
