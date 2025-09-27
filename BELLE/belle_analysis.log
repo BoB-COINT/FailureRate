@@ -425,7 +425,7 @@
 2025-09-26 10:54:15,362 - INFO - Fetched 1000 transactions (page 1) for 0xc716b29de71da04ef492cdf79d12ed251def7914
 2025-09-26 10:54:16,360 - INFO - Fetched 820 transactions (page 2) for 0xc716b29de71da04ef492cdf79d12ed251def7914
 2025-09-26 10:54:16,377 - INFO - Processed 893 router transactions in window for 0xc716b29de71da04ef492cdf79d12ed251def7914
-2025-09-26 10:54:45,409 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x8e93df557ad9797556f61b9e6d1c5039bb3734475d1d01afbeea87823fe7d195&apikey=VBP9AS63QF875GBX8ZUSJN5667GBRB33R7
+2025-09-26 10:54:45,409 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x8e93df557ad9797556f61b9e6d1c5039bb3734475d1d01afbeea87823fe7d195&apikey=
 2025-09-26 10:54:48,891 - INFO - Analysis complete for 0xc716b29de71da04ef492cdf79d12ed251def7914: 893 txs (window), 11.5% fail rate
 2025-09-26 10:54:48,892 - INFO - Processing BELLE holder 49/335: 0x475c3d8ed09774069d028b4bc009fecb07f2517d
 2025-09-26 10:54:48,892 - INFO - Starting analysis for holder: 0x475c3d8ed09774069d028b4bc009fecb07f2517d
@@ -1110,7 +1110,7 @@
 2025-09-26 11:14:41,068 - INFO - Fetched 1000 transactions (page 3) for 0x7a1bcb582fbdfb6fae842905eabaed6c1992b349
 2025-09-26 11:14:41,668 - INFO - Fetched 274 transactions (page 4) for 0x7a1bcb582fbdfb6fae842905eabaed6c1992b349
 2025-09-26 11:14:41,683 - INFO - Processed 1360 router transactions in window for 0x7a1bcb582fbdfb6fae842905eabaed6c1992b349
-2025-09-26 11:15:10,742 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0xfdaa79a12d351d584484d6eb4b27fa0885e2cbea3d6f410e22ba0ea733ba6fea&apikey=VBP9AS63QF875GBX8ZUSJN5667GBRB33R7
+2025-09-26 11:15:10,742 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0xfdaa79a12d351d584484d6eb4b27fa0885e2cbea3d6f410e22ba0ea733ba6fea&apikey=
 2025-09-26 11:15:24,117 - INFO - Analysis complete for 0x7a1bcb582fbdfb6fae842905eabaed6c1992b349: 1360 txs (window), 11.5% fail rate
 2025-09-26 11:15:24,117 - INFO - Processing BELLE holder 140/335: 0xafca8e2986d7f2df9e5bd06c7fde76988fbaf816
 2025-09-26 11:15:24,117 - INFO - Starting analysis for holder: 0xafca8e2986d7f2df9e5bd06c7fde76988fbaf816
@@ -1602,7 +1602,7 @@
 2025-09-26 11:29:41,467 - INFO - Fetched 1000 transactions (page 1) for 0x32df5c4408a68ee2defb40050ad65a5703f8ee5e
 2025-09-26 11:29:42,168 - INFO - Fetched 516 transactions (page 2) for 0x32df5c4408a68ee2defb40050ad65a5703f8ee5e
 2025-09-26 11:29:42,178 - INFO - Processed 584 router transactions in window for 0x32df5c4408a68ee2defb40050ad65a5703f8ee5e
-2025-09-26 11:29:50,922 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x38962f581eb5d68acb1206d9671a474fe8f44fd243be9c409f5e2bf422e2706f&apikey=VBP9AS63QF875GBX8ZUSJN5667GBRB33R7
+2025-09-26 11:29:50,922 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x38962f581eb5d68acb1206d9671a474fe8f44fd243be9c409f5e2bf422e2706f&apikey=
 2025-09-26 11:29:58,934 - INFO - Analysis complete for 0x32df5c4408a68ee2defb40050ad65a5703f8ee5e: 584 txs (window), 9.9% fail rate
 2025-09-26 11:29:58,935 - INFO - Processing BELLE holder 205/335: 0x50abb229c97968e6c009155eb8e4f60083ef0f3a
 2025-09-26 11:29:58,935 - INFO - Starting analysis for holder: 0x50abb229c97968e6c009155eb8e4f60083ef0f3a
@@ -1797,7 +1797,7 @@
 2025-09-26 11:35:02,968 - INFO - Fetched 1000 transactions (page 3) for 0x69de5e18113ee6ea8a69cb46cabda371d5e581d6
 2025-09-26 11:35:03,860 - INFO - Fetched 588 transactions (page 4) for 0x69de5e18113ee6ea8a69cb46cabda371d5e581d6
 2025-09-26 11:35:03,879 - INFO - Processed 2206 router transactions in window for 0x69de5e18113ee6ea8a69cb46cabda371d5e581d6
-2025-09-26 11:35:11,227 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x667f12dd1a4eb6964040f81f0a82ee403051de0972962affd8e22597012fc2b1&apikey=VBP9AS63QF875GBX8ZUSJN5667GBRB33R7
+2025-09-26 11:35:11,227 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x667f12dd1a4eb6964040f81f0a82ee403051de0972962affd8e22597012fc2b1&apikey=
 2025-09-26 11:35:57,058 - INFO - Analysis complete for 0x69de5e18113ee6ea8a69cb46cabda371d5e581d6: 2206 txs (window), 10.1% fail rate
 2025-09-26 11:35:57,059 - INFO - Processing BELLE holder 230/335: 0x5d133b12a68441d115a3cd7bd2fcb208992fc428
 2025-09-26 11:35:57,060 - INFO - Starting analysis for holder: 0x5d133b12a68441d115a3cd7bd2fcb208992fc428
@@ -2178,7 +2178,7 @@
 2025-09-26 11:45:08,110 - INFO - Fetched 1000 transactions (page 2) for 0x7284bfcad25b9d16c5bacf72783c8a16bde5763b
 2025-09-26 11:45:09,107 - INFO - Fetched 871 transactions (page 3) for 0x7284bfcad25b9d16c5bacf72783c8a16bde5763b
 2025-09-26 11:45:09,116 - INFO - Processed 747 router transactions in window for 0x7284bfcad25b9d16c5bacf72783c8a16bde5763b
-2025-09-26 11:45:19,183 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x5fe7ce9639feba5c0bb97a0748736a6dec89f6f0cac16ecd58f16c573fd4e3ca&apikey=VBP9AS63QF875GBX8ZUSJN5667GBRB33R7
+2025-09-26 11:45:19,183 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x5fe7ce9639feba5c0bb97a0748736a6dec89f6f0cac16ecd58f16c573fd4e3ca&apikey=
 2025-09-26 11:45:29,276 - INFO - Analysis complete for 0x7284bfcad25b9d16c5bacf72783c8a16bde5763b: 747 txs (window), 9.8% fail rate
 2025-09-26 11:45:29,277 - INFO - Processing BELLE holder 283/335: 0x73e9411a0e782b62887c6a3423adfafd747301a8
 2025-09-26 11:45:29,277 - INFO - Starting analysis for holder: 0x73e9411a0e782b62887c6a3423adfafd747301a8
@@ -2381,7 +2381,7 @@
 2025-09-26 11:51:13,870 - INFO - Fetched 1000 transactions (page 2) for 0x3407e0471c74b816094b454c485573e676085b30
 2025-09-26 11:51:14,477 - INFO - Fetched 277 transactions (page 3) for 0x3407e0471c74b816094b454c485573e676085b30
 2025-09-26 11:51:14,490 - INFO - Processed 224 router transactions in window for 0x3407e0471c74b816094b454c485573e676085b30
-2025-09-26 11:51:16,689 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x173a0cef99a9b869aa92bbca8ad8e5e45931d569174d18796260864e37892197&apikey=VBP9AS63QF875GBX8ZUSJN5667GBRB33R7
+2025-09-26 11:51:16,689 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=proxy&action=eth_getTransactionReceipt&txhash=0x173a0cef99a9b869aa92bbca8ad8e5e45931d569174d18796260864e37892197&apikey=
 2025-09-26 11:51:19,318 - INFO - Analysis complete for 0x3407e0471c74b816094b454c485573e676085b30: 224 txs (window), 6.7% fail rate
 2025-09-26 11:51:19,319 - INFO - Processing BELLE holder 308/335: 0xbd0f2a69d15d17d19ca4703f17d2ba1c432893dd
 2025-09-26 11:51:19,320 - INFO - Starting analysis for holder: 0xbd0f2a69d15d17d19ca4703f17d2ba1c432893dd
@@ -2520,7 +2520,7 @@
 2025-09-26 11:54:10,286 - INFO - Fetched 1000 transactions (page 1) for 0x9008d19f58aabd9ed0d60971565aa8510560ab41
 2025-09-26 11:54:11,953 - INFO - Fetched 1000 transactions (page 2) for 0x9008d19f58aabd9ed0d60971565aa8510560ab41
 2025-09-26 11:54:13,342 - INFO - Fetched 1000 transactions (page 3) for 0x9008d19f58aabd9ed0d60971565aa8510560ab41
-2025-09-26 11:54:13,786 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=account&action=txlist&address=0x9008d19f58aabd9ed0d60971565aa8510560ab41&startblock=0&endblock=99999999&page=4&offset=1000&sort=asc&apikey=VBP9AS63QF875GBX8ZUSJN5667GBRB33R7
+2025-09-26 11:54:13,786 - WARNING - Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api?module=account&action=txlist&address=0x9008d19f58aabd9ed0d60971565aa8510560ab41&startblock=0&endblock=99999999&page=4&offset=1000&sort=asc&apikey=
 2025-09-26 11:54:16,164 - INFO - Fetched 1000 transactions (page 4) for 0x9008d19f58aabd9ed0d60971565aa8510560ab41
 2025-09-26 11:54:17,727 - INFO - Fetched 1000 transactions (page 5) for 0x9008d19f58aabd9ed0d60971565aa8510560ab41
 2025-09-26 11:54:19,111 - INFO - Fetched 1000 transactions (page 6) for 0x9008d19f58aabd9ed0d60971565aa8510560ab41
